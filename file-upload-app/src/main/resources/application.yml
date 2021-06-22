@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: file-upload-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/file_upload?serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: chenxii
+    password: 12345678
+server:
+  port: 9002
